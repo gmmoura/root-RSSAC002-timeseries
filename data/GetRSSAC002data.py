@@ -53,6 +53,7 @@ def downloadSimple(d):
                 base2 = v.split(',')[1]
                 fullPath = base2 + currentStrDate[0:4] + "/" + currentStrDate[
                                                                4:6] + "/traffic-volume/" + k + "-root-" + currentStrDate + "-traffic-volume.yaml"
+                fullPath=fullPath.strip()
                 data = requests.get(fullPath)
                 data = data.text
                 data = data.split("\n")
