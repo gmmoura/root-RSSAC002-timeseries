@@ -78,7 +78,7 @@ def downloadSimple(d):
                     v=udpv4[k]
                     tcpv4ratio="NA"
                     try:
-                        tcpv4ratio=float(float(tcpv4[k])/float(udpv4[k]))
+                        tcpv4ratio=float(float(tcpv4[k])/float(udpv4[k])+ float(tcpv4[k]))
                         tcpv4ratio = round(100 * tcpv4ratio, 2)
                     except:
                         pass
@@ -86,7 +86,7 @@ def downloadSimple(d):
                     tcpv6ratio="NA"
                     try:
 
-                        tcpv6ratio = float(float(tcpv6[k]) / float(udpv6[k]))
+                        tcpv6ratio = float(float(tcpv6[k]) / float(udpv6[k]) + float(tcpv6[k]) )
                         tcpv6ratio = round(100 * tcpv6ratio, 2)
                     except:
                         pass
