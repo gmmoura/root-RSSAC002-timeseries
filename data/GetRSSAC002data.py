@@ -24,6 +24,8 @@ def downloadSimple(d):
     for k, v in d.items():
         if k!='g' and k!="h":
 
+            if k=='e':
+                print('z')
             letter=k
             path=v.split(",")[-2]
             minDate=v.split(",")[-1]
@@ -47,8 +49,7 @@ def downloadSimple(d):
             for i in range(0, diff):
                 currentDate= minDateD + datetime.timedelta(days=i)
                 currentStrDate = str(currentDate).split(" ")[0].replace("-", '')
-
-                path=v.split(',')[-2]
+                print(k + "," + currentStrDate)
 
                 base2 = v.split(',')[1]
                 fullPath = base2 + currentStrDate[0:4] + "/" + currentStrDate[
@@ -66,13 +67,18 @@ def downloadSimple(d):
                         tcpv4[currentStrDate] = int(i.split(":")[1])
                     elif 'dns-tcp-queries-received-ipv6' in i:
                         tcpv6[currentStrDate] = int(i.split(":")[1])
-                print(k + "," + currentStrDate)
+
+
             with open(k+"-"+ str(intEnd)+'.csv', 'w') as f:
                 f.write("#date,udpv4,updv6,tcpv4,tcp6,ratiotcpv4,ratiotcpv6\n")
-                for k,v in udpv4.items():
+
+                sortedKeys=sorted(udpv4)
+
+                for k in sortedKeys:
+                    v=udpv4[k]
                     tcpv4ratio="NA"
                     try:
-                        tcpv4ratio=float(int(tcpv4[k])/int(udpv4[k]))
+                        tcpv4ratio=float(float(tcpv4[k])/float(udpv4[k]))
                         tcpv4ratio = round(100 * tcpv4ratio, 2)
                     except:
                         pass
@@ -80,7 +86,7 @@ def downloadSimple(d):
                     tcpv6ratio="NA"
                     try:
 
-                        tcpv6ratio = float(int(tcpv6[k]) / int(udpv6[k]))
+                        tcpv6ratio = float(float(tcpv6[k]) / float(udpv6[k]))
                         tcpv6ratio = round(100 * tcpv6ratio, 2)
                     except:
                         pass
