@@ -1,0 +1,14 @@
+#letter,baseURL,sampleURL,startdate,
+a, http://a.root-servers.org/rssac-metrics/raw/,http://a.root-servers.org/rssac-metrics/raw/2013/10/traffic-volume/a-root-20131001-traffic-volume.yaml,20131001
+b,https://b.root-servers.org/rssac/, https://b.root-servers.org/rssac/2015/12/traffic-volume/b-root-20151215-traffic-volume.yaml,20151215
+c,https://c.root-servers.org/rssac002-metrics/, https://c.root-servers.org/rssac002-metrics/2015/01/traffic-volume/c-root-20150106-traffic-volume.yaml,20150106
+d,http://www.droot.maxgigapop.net/rssac002/,http://www.droot.maxgigapop.net/rssac002/2015/10/traffic-volume/d-root-20151017-traffic-volume.yaml,20151017
+e,https://e.root-servers.org/rssac/,https://e.root-servers.org/rssac/2016/08/traffic-volume/e-root-20160801-traffic-volume.yaml,20160801
+f,http://rssac-stats.isc.org/rssac002/,http://rssac-stats.isc.org/rssac002/2017/03/traffic-volume/f-root-20170310-traffic-volume.yaml,20170310
+g,http://www.disa.mil/G-Root/G-Root-Stats,NA, NA
+h,https://h.root-servers.org/rssac002-metrics/,https://h.root-servers.org/rssac002-metrics/2015/03/traffic-volume/h-root-20150327-traffic-volume.yaml,20150327
+i,https://www.netnod.se/rssac002-metrics/,https://www.netnod.se/rssac002-metrics/2013/04/traffic-volume/i-root-20130423-traffic-volume.yaml,20130423
+j, http://j.root-servers.org/rssac-metrics/raw/,http://j.root-servers.org/rssac-metrics/raw/2013/10/traffic-volume/j-root-20131001-traffic-volume.yaml,20131001
+k,https://www-static.ripe.net/dynamic/rssac002-metrics/, https://www-static.ripe.net/dynamic/rssac002-metrics/2015/03/traffic-volume/k-root-20150317-traffic-volume.yaml,20150317
+l,http://stats.dns.icann.org/rssac/,http://stats.dns.icann.org/rssac/2014/06/traffic-volume/l-root-20140615-traffic-volume.yaml,20140615
+m,https://rssac.wide.ad.jp/rssac002-metrics/,https://rssac.wide.ad.jp/rssac002-metrics/2015/11/traffic-volume/m-root-20151101-traffic-volume.yaml,20151101
