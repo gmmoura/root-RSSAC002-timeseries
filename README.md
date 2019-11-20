@@ -8,5 +8,10 @@
 ## Ratio of TCP queries per Root Server Letter
 
 
+### A Root:
 
-     * *A ROOT*: ![alt text](tcp_udp/a.png "A Root")
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/a.png "A Root")
+
+### B Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/b.png "B Root")
