@@ -67,5 +67,5 @@ plot  'l.csv' u 1:5  w lp ti 'IPv4', ''  u 1:9 w lp ti 'IPv6'
 
 
 set title 'M Root' 
-set output 'l.png'
+set output 'm.png'
 plot  'm.csv' u 1:5  w lp ti 'IPv4', ''  u 1:9 w lp ti 'IPv6'
