@@ -6,6 +6,20 @@
 
   * Uses data from https://github.com/rssac-caucus/RSSAC002-data
 
+  * To reproduce it:
+  ```
+  $ git clone https://github.com/gmmoura/root-RSSAC002-timeseries
+  $ cd root-RSSAC002-timeseries
+  #clone the data from @wessels repository
+  $ git clone https://github.com/rssac-caucus/RSSAC002-data
+  #crunch the  data
+  python tcpStats.py
+  #generate figs
+  cd tcp_udp
+  $gnuplot graph.gp
+  ```
+
+
 
 ## Ratio of TCP queries per Root Server Letter
 
