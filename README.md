@@ -1,7 +1,9 @@
 # root-RSSAC002-timeseries
 
 
-  * Show timeseries of TCP queries for Root DNS server
+  * Show timeseries of *incoming* TCP and UDP  queries for each Root Server Letter
+     * Except for G root -- could not get the data
+
   * Uses data from https://github.com/rssac-caucus/RSSAC002-data
 
 
@@ -15,3 +17,45 @@
 ### B Root:
 
 ![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/b.png "B Root")
+
+### C Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/c.png "C Root")
+
+
+### D Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/d.png "D Root")
+
+
+### E Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/e.png "E Root")
+
+### F Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/f.png "F Root")
+
+### H Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/H.png "H Root")
+
+### I Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/i.png "I Root")
+
+### J Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/j.png "J Root")
+
+### K Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/k.png "K Root")
+
+### L Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/l.png "L Root")
+
+### M Root:
+
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/m.png "L Root")
