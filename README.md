@@ -1,8 +1,10 @@
 # root-RSSAC002-timeseries
 
 
-  * Show timeseries of *incoming* TCP and UDP  queries for each Root Server Letter
+  * Show timeseries of ratio of incoming TCP queries over time
+     * or each Root Server Letter
      * Except for G root -- could not get the data
+     * Ratio is defined as the *percentage* of TCP queries w.r.t. the total incoming queries
 
   * Uses data from https://github.com/rssac-caucus/RSSAC002-data
 
