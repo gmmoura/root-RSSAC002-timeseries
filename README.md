@@ -38,7 +38,7 @@
 
 ### H Root:
 
-![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/H.png "H Root")
+![alt text](https://github.com/gmmoura/root-RSSAC002-timeseries/blob/master/tcp_udp/h.png "H Root")
 
 ### I Root:
 
