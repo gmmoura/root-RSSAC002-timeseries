@@ -13,7 +13,7 @@
   #clone the data from @wessels repository
   $ git clone https://github.com/rssac-caucus/RSSAC002-data
   #crunch the  data
-  python tcpStats.py
+  python tcpStats.py RSSAC002-data
   #generate figs
   cd tcp_udp
   $gnuplot graph.gp
